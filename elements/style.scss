@@ -1,0 +1,9 @@
+@import "theme/default";
+@import "global/functions";
+
+.nui-scope {
+	color: map-get($nui-colors, base);
+
+	@import "depth/default/index";
+	@import "button/default/index";
+}

@@ -1,0 +1,16 @@
+.nui-button {
+	display: flex;
+	height: 32px;
+	padding: 0 ($nui-base-line * 2);
+	border: none;
+	border-radius: $nui-base-border-radius;
+	background-color: map-get($nui-colors, default);
+	font-size: 16px;
+	line-height: 1;
+
+	@include nui-depth(1);
+
+	&--primary {
+		background-color: map-get($nui-colors, primary);
+	}
+}
