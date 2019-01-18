@@ -2,7 +2,6 @@
   "name": "natural-ui",
   "version": "1.0.0",
   "description": "UI Kit",
-  "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
@@ -11,14 +10,14 @@
     "url": "git+https://github.com/andrejesuscm/natural-ui.git"
   },
   "keywords": [
-    "ui"
+    "ui kit"
   ],
   "author": "André Jesus",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/andrejesuscm/natural-ui/issues"
   },
-  "homepage": "https://github.com/andrejesuscm/natural-ui#readme",
+  "homepage": "https://andrejesuscm.github.io/natural-ui/",
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "autoprefixer": "^9.3.1",
