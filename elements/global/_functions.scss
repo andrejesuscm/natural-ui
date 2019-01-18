@@ -1,4 +1,0 @@
-/* theme import path */
-@function themepath($theme, $append: '') {
-    @return "themes/#{$theme}/#{$append}";
-}

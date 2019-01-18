@@ -1,0 +1,43 @@
+.nui-button {
+	display: flex;
+	height: 32px;
+	min-width: 32px;
+	padding: 0 ($nui-base-line * 2);
+	border: none;
+	border-radius: $nui-base-border-radius;
+	background-color: map-get($nui-colors, gray);
+	font-size: 16px;
+	line-height: 1;
+	justify-content: center;
+	color: map-get($nui-colors, white);
+	cursor: pointer;
+
+	@include nui-depth(1);
+
+	/* color modifiers */
+	&--blue {
+		background-color: map-get($nui-colors, blue);
+	}
+
+	&--blue-dark {
+		background-color: map-get($nui-colors, blue-dark);
+	}
+
+	/* size modifiers */
+
+	&--full-width {
+		width: 100%;
+	}
+
+	/* form modifiers */
+
+	&--round {
+		border-radius: $nui-button-height;
+	}
+
+	&--circle {
+		border-radius: $nui-button-height;
+		width: 32px;
+		padding: 0;
+	}
+}

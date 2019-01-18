@@ -1,0 +1,8 @@
+.nui-scope {
+	@import "elements/theme/index";
+
+	color: map-get($nui-colors, base);
+
+	@import "elements/depth/index";
+	@import "elements/button/index";
+}

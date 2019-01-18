@@ -1,0 +1,33 @@
+$nui-base-line: 8px;
+
+$nui-base-border-radius: 2px;
+$nui-large-border-radius: 4px;
+
+/* colors */
+
+/* flatuicolors.com lib */
+
+$nui-colors: (
+	base: #2c3e50, //midnight blue
+	white: #fff,
+	blue: #3498db, //peter river
+	blue-dark: #2980b9, //belize hole
+	turquoise: #1abc9c, //turquoise
+	turquoise-dark: #16a085,
+	yellow: #f1c40f, //sun flower,
+	orange: #f39c12, //orange,
+	green: #2ecc71, //emerald
+	green-dark: #27ae60, //nephritis
+	carrot: #e67e22, //carrot
+	pumpkin: #d35400, //pumpkin
+	red: #e74c3c, //alizarin
+	red-dark: #c0392b, //pomegranate
+	purple: #9b59b6, //amethyst
+	purple-dark: #8e44ad, //wisteria
+	gray-light: #ecf0f1, //clouds
+	gray: #bdc3c7, //silver
+	gray-dark: #95a5a6, //concrete
+	gray-darkest: #7f8c8d, //asbestos
+	dark: #34495e, //wet asphalt
+	darkest: #2c3e50 //midnight blue
+);
